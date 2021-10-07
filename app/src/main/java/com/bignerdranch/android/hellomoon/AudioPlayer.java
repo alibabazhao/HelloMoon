@@ -26,6 +26,12 @@ public class AudioPlayer extends Object{
         });
 
         mPlayer.start();
+    }
 
+    public void pause(){
+        if(mPlayer.isPlaying())
+            mPlayer.pause();
+        else
+            mPlayer.start();
     }
 }
