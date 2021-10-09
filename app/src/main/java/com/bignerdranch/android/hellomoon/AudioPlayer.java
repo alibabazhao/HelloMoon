@@ -1,4 +1,4 @@
-package com.bignerdranch.android.hellomoon;
+ package com.bignerdranch.android.hellomoon;
 
 import android.content.Context;
 import android.media.MediaPlayer;
